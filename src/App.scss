@@ -1,0 +1,43 @@
+// Global stylings
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  color: #ffffff;
+}
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+li {
+  list-style: none;
+}
+
+// Nav bar
+.main-head {
+  height: 10vh;
+  background: #0a1931;
+
+  nav {
+    height: 100%;
+    display: flex;
+    margin: 0 5% 0 2%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 2rem;
+  }
+  .logo {
+    flex: 2 1 40rem;
+    font-size: 2.5rem;
+  }
+  .nav-links {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex: 1 1 20rem;
+  }
+}

@@ -53,7 +53,7 @@ function ProblemStatement() {
       <h1 className="center-text">Problem Statement</h1>
       <div className="answer-1">
         <div className="img-container">
-          <img src="/images/answer1.png" alt="" />
+          <img src="/images/answer1.png" />
         </div>
         <div className="text-container">
           <h2 className="center-text">Heading</h2>
@@ -76,7 +76,7 @@ function ProblemStatement() {
           </p>
         </div>
         <div className="img-container">
-          <img src="/images/answer2.png" alt="" />
+          <img src="/images/answer2.png" />
         </div>
       </div>
     </section>

@@ -183,4 +183,9 @@ button,
 .problemstatement .answer-2 .text-container {
   margin: 0 10rem;
 }
+
+.problemstatement .answer-1 .text-container p,
+.problemstatement .answer-2 .text-container p {
+  padding-top: 3rem;
+}
 /*# sourceMappingURL=App.css.map */

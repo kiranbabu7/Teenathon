@@ -38,11 +38,46 @@ function Home() {
         </p>
         <div className="intro-btns">
           <button>Know More</button>
-          <button>Sign Up</button>
+          <button className="green-btn">Sign Up</button>
         </div>
       </div>
       <div className="intro-img">
         <img src="/images/cyborg-sign-up.png" />
+      </div>
+    </section>
+  );
+}
+function ProblemStatement() {
+  return (
+    <section className="problemstatement">
+      <h1 className="center-text">Problem Statement</h1>
+      <div className="answer-1">
+        <div className="img-container">
+          <img src="/images/answer1.png" alt="" />
+        </div>
+        <div className="text-container">
+          <h2 className="center-text">Heading</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam
+            numquam inventore doloribus molestias veniam ut eveniet sed error
+            cum! Molestias quis pariatur molestiae quae sint non laboriosam
+            eligendi laudantium necessitatibus.
+          </p>
+        </div>
+      </div>
+      <div className="answer-2">
+        <div className="text-container">
+          <h2 className="center-text">Heading</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam
+            numquam inventore doloribus molestias veniam ut eveniet sed error
+            cum! Molestias quis pariatur molestiae quae sint non laboriosam
+            eligendi laudantium necessitatibus.
+          </p>
+        </div>
+        <div className="img-container">
+          <img src="/images/answer2.png" alt="" />
+        </div>
       </div>
     </section>
   );
@@ -52,6 +87,7 @@ function App() {
     <>
       <Nav></Nav>
       <Home></Home>
+      <ProblemStatement></ProblemStatement>
     </>
   );
 }
